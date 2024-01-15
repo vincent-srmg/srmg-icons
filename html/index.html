@@ -1,0 +1,55 @@
+<!-- CARD ACTIVITY -->
+<div class="card-activity {{options}}">
+    <div class="card-activity__header">
+        <h3>{{title}}</h3>
+        <i class="icon"></i>
+    </div>
+    <div class="card-activity__content">
+        <p>
+            {{desc}}
+        </p>
+    </div>
+    <div class="card-activity__footer">
+        {{> button
+        text="Learn more"
+        icon=""
+        }}
+    </div>
+</div>
+
+
+<!-- CARD BLOG -->
+<div class="card-blog  {{options}}">
+    <div class="card-blog__header">
+        <div class="card-blog__img">
+            <img src="{{img}}" alt="{{title}}" />
+        </div>
+    </div>
+    <div class="card-activity__content">
+        <div class="card-blog__title">
+            <h3>{{title}}</h3>
+        </div>
+    </div>
+    <div class="card-activity__footer">
+        {{> button
+        text="Learn more"
+        icon=""
+        }}
+        <div class="card-blog__date">
+            <span>{{date}}</span>
+        </div>
+    </div>
+</div>
+
+<!-- CARD -->
+<div class="card {{options}}">
+    <div class="card__title">
+        <h3>{{title}}</h3>
+    </div>
+    <div class="card__desc">
+        <p>{{desc}}</p>
+    </div>
+    <div class="card__img">
+        <img src="{{img}}" alt="{{title}}" />
+    </div>
+</div>
